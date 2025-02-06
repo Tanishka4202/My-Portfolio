@@ -1,0 +1,412 @@
+
+
+ #intro, #about, #skills{
+    margin-top: 15px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    background-color: rgba(173, 173, 173, 0.126);
+    padding: 4vw;
+}
+#projects,#artworks,#designs,#youtube,#contact{
+    margin-top: 15px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 20px 0px; 
+    width: 80vw;
+    background-color: rgba(173, 173, 173, 0.126);
+    padding: 4vw;
+}
+#navbar:hover, #intro:hover, #about:hover, #skills:hover, #projects:hover, #designs:hover,#artworks:hover, #youtube:hover, #contact:hover{
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px #FF10F0;
+    transform: scale(1.02);  
+    transition-duration: 1s;
+}
+#logo{
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    cursor: none;
+    background-image: linear-gradient(to right, #0E9EEF, #EE10B0);
+    background-size: 100%;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    cursor: not-allowed;
+}
+#contyoutube{
+    display: flex;
+    padding-bottom: 20px;
+}
+#journey{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+#journey>div{
+    gap: 24px;
+}
+#container ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    column-gap: 4vw;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+#container ul li:hover{
+    transform: scale(1.1);
+    color: #FF10F0;
+    transition-duration: 1s;
+
+}
+
+#details{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+#details>h3{
+    font-size: 36px;
+    background-image: linear-gradient(to right, #0E9EEF, #EE10B0);
+    background-size: 100%;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#details>h4{
+    font-size: 24px;
+}
+
+#app>img{
+    width: 36px;
+    padding: 10px;
+    background-color: rgba(173, 173, 173, 0.126);
+    border-radius: 50px;
+}
+#app{
+    display: flex;
+    gap: 16px;
+}
+#buttons{
+    display: flex;
+    gap: 32px;
+}
+#buttons>button{
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#viewprojects{
+    border: 1px solid #EE10B0;
+    background-color: #EE10B0;
+    color: white;
+}
+#getintouch{
+    border: 1px solid #0E9EEF;
+    color: #0E9EEF;
+    background-color: rgba(173, 173, 173, 0);
+}
+
+#photo{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+#photo>img{
+    width: 200px;
+    min-width: 180px;
+}
+#photo>img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+#app>img:hover, #buttons>button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+
+}
+
+#aboutme,#skillset#journey{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main h2{
+    font-size: 2em;
+    color: #0E9EEF;
+    align-self: center;
+}
+main h4{
+    font-size: 1.4em;
+    color: #FF10F0;
+}
+main{
+    font-size: 1.1em;
+}
+main ul{
+    margin:  0px 20px;
+}
+main ul li{
+    margin: 10px 0px;
+}
+#skillset{
+    display: flex;
+    flex-direction: column;
+}
+.circles{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    border: 8px solid #ffffff;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#frontend{
+    background: conic-gradient(#FF10F0 60%, transparent 40%); 
+}
+#backend{
+    background: conic-gradient(#FF10F0 5%, transparent 95%); 
+}
+#figma{
+    background: conic-gradient(#FF10F0 80%, transparent 20%); 
+}
+
+#photoshop{
+    background: conic-gradient(#FF10F0 20%, transparent 80%); 
+}
+#davinci{
+    background: conic-gradient(#FF10F0 40%, transparent 60%); 
+}
+
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.projectcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8em;
+    min-width: 280px;
+    background-color: rgba(104, 104, 104, 0.16);
+    border-radius: 12px;
+    justify-content: baseline;
+    padding: 10px;
+    border: 2px solid #0E9EEF;
+    gap: 12px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.885);
+}
+.designcard{
+    height: 100px;
+}
+.projectcard div h3{
+    color: #FF10F0;
+    font-size: 28px;
+}
+.projectcard div{
+    margin: 8px;
+    padding: 8px;
+}
+.projectcard div p{
+    font-size: 16px;
+    margin: 8px 0px;
+}
+.projectcard:hover{
+    transform: scale(1.05);
+}
+
+#projects,#designs, #artworks{
+    display: flex;
+    gap: 40px;
+}
+
+#projectbox{
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2.8em;
+}
+.projectpic{
+    width: 98%;
+    border-radius: 12px;
+}
+#projects>p{
+    width: 84%;
+}
+.viewall{
+    border: none;
+    border-radius:6px;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #0E9EEF, #EE10B0);
+    background-size: 100%;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.viewall:hover{
+    transform: scale(1.1);
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+#connect{
+    display: flex;
+    width: 90%;
+}
+#contactphoto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contactphoto>img{
+    width: 20em;
+    min-width: 300px;
+}
+#contactphoto>img:hover{
+    transform: scale(1.05);
+}
+#contactphoto>div>img{
+    width: 2vw;
+    min-width: 48px;
+}
+#contactbox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contactbox>div{
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 4vw;
+    background-color: #b806868a;
+    border-radius: 20px;
+    gap: 32px;
+}
+#message{
+    height: 120px;
+}
+.input{
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.469);
+    border: 1px solid #f3f3f3;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+}
+#contactbox h3{
+    font-size: 28px;
+}
+#send{
+    padding: 8px 20px;
+    color: white;
+    background-color: #EE10B0;
+    font-size: 1.6em;
+    border: none;
+    border-radius: 4px;
+}
+#send:hover{
+    transform: scale(1.1);
+}
+footer{
+    width: 100vw;
+    background-color: rgb(55, 55, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+@media (max-width: 1345px){
+    #navbar,#about, #skills, #projects, #designs,#artworks, #youtube, #contact,#cnnect{
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 20px 0px;
+    }
+
+    #container ul{
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+}
+@media (max-width: 1025px){
+    #intro, #about, #skillset,#contyoutube,#connect{
+        flex-direction: column;
+        gap: 28px;
+    }
+    #details, #about, #skills, #projects, #designs, #artworks,#youtube, #contyoutube,#connect{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    #main{
+        justify-content: center;
+        align-items: center;
+    }
+    #aboutme, #contactbox{
+        width: 80%;
+        align-items: center;
+    }
+    #current{
+        width: 80%;
+        align-self: center;
+    }
+}
+
+#details p{font-size: 32px;}
+#details h3{font-size: 60px;}
+#details h4{font-size: 40px;}
+#details button{font-size: 24px;}
+
+@media (max-width: 510px){
+#details p{font-size: 20px;}
+#details h3{font-size: 40px;}
+#details h4{font-size: 32px;}
+#details button{font-size: 16px;}
+#skillset{width: 80%;}
+}
